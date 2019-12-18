@@ -5,12 +5,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
 }
 
 img {
     margin-top: auto;
     margin-left: -5px;
-    border-radius: 5px;
-    border: solid red 4px;
+    border-radius: 0px 0px 5px;
+    border: none;
     border-top: none;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384)
 }
