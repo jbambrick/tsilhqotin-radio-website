@@ -5,8 +5,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
-}
+  }
 
 img {
     margin-top: auto;
@@ -18,4 +17,14 @@ img {
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
     box-sizing: border-box;
     border-radius: 0px 0px 6px 6px;
+}
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+
+}
+
+@media screen and (max-width: 575px) {
+  
 }
