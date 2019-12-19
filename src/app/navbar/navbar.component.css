@@ -1,5 +1,5 @@
   .toolbar {
-    height: 80px;
+    height: 120px;
     margin: -8px;
     display: flex;
     align-items: center;
@@ -10,14 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
 
-  .toolbar #twitter-logo:hover {
-    opacity: 0.8;
-  }
 
   .toolbar > li {
     display: inline-block;
@@ -39,7 +32,8 @@
   }
 
   button:hover {
-    background-color: black;
+      text-shadow: 4px 4px 10px #000000;
+      text-transform: uppercase;
   }
 
   button {

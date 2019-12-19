@@ -1,8 +1,9 @@
 .content {
   display: flex;
   float: right;
-  margin-top: 10px;
-  margin-left: 1220px;
+  margin-top: 50px;
+  margin-left: 1100px;
+  margin-right: 50px;
   padding: 0 16px;
   max-width: 270px;
   flex-direction: column;
