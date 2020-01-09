@@ -1,5 +1,6 @@
 body {
     background-image: url(~\assets\xeni.jpg);
+    background-position: fixed;
     background-repeat: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,5 +27,5 @@ img {
 }
 
 @media screen and (max-width: 575px) {
-  
+
 }
