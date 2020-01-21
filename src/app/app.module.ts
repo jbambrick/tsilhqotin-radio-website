@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { StaffComponent } from './staff/staff.component';
 import { PlayerComponent } from './player/player.component';
 import { LanguageComponent } from './language/language.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LanguageComponent } from './language/language.component';
     AboutComponent,
     StaffComponent,
     PlayerComponent,
-    LanguageComponent
+    LanguageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
