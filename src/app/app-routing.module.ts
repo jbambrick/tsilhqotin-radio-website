@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { StaffComponent } from './staff/staff.component';
 import { LanguageComponent } from './language/language.component';
 import { ContactComponent } from './contact/contact.component';
+import { CreditsComponent } from './credits/credits.component';
 
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'staff', component: StaffComponent},
   {path: 'language', component: LanguageComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'credits', component: CreditsComponent},
 ];
 
 @NgModule({

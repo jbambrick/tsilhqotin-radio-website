@@ -11,6 +11,7 @@ import { StaffComponent } from './staff/staff.component';
 import { PlayerComponent } from './player/player.component';
 import { LanguageComponent } from './language/language.component';
 import { ContactComponent } from './contact/contact.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     StaffComponent,
     PlayerComponent,
     LanguageComponent,
-    ContactComponent
+    ContactComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
