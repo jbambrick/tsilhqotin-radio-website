@@ -14,5 +14,7 @@
     font-size: 18px;
     color: black;
     min-width: 900px;
+    list-style-type: none;
+    border-radius: 10px;
     
 }
