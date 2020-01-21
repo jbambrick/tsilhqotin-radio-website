@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { StaffComponent } from './staff/staff.component';
 import { PlayerComponent } from './player/player.component';
+import { LanguageComponent } from './language/language.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PlayerComponent } from './player/player.component';
     NavbarComponent,
     AboutComponent,
     StaffComponent,
-    PlayerComponent
+    PlayerComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,
