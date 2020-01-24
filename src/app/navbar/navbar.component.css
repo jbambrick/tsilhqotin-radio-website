@@ -1,6 +1,7 @@
   .toolbar {
-    height: 120px;
+    height: 125px;
     margin: -8px;
+    padding: 5px;
     display: flex;
     align-items: center;
     background-color: red;
@@ -9,15 +10,6 @@
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384)
-  }
-
-
-
-  .toolbar > li {
-    display: inline-block;
-    padding: 0.5em;
-    border: none;
-    margin: 0;
   }
 
   li {
@@ -29,12 +21,18 @@
   a {
     color: white;
     text-decoration: none;
-    height: 160px;
+    height: 120px;
+    padding: 1px;
+    display: inline-block;
+    width: 150px;
+ 
   }
 
   button:hover {
-      color: rgb(168, 168, 168);
-      background-color: black;
+      color: red ;
+      background-color: white;
+      transform: scale(1.1) translate(105% 105%);
+      box-shadow: 4px 4px 4px 4px rgba(.3, .3, .3, 0.3), 6px 6px 20px 6px rgba(.3, .3, 0.3, 0.3)
   }
 
   button {
@@ -46,6 +44,9 @@
     font-weight: bold;
     display: block;
     border: none;
+    height: inherit;
+    width: initial;
+    border-radius: 5px;
   }
 
 

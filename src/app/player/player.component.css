@@ -7,7 +7,7 @@
     display: block;
     margin-top: 40px;
     margin-left: 1200px;
-    margin-right: 100px;
+    margin-right: 150px;
     padding: 0 16px;
     max-width: 270px;
     flex-direction: column;
@@ -23,13 +23,21 @@
     margin-left: 450px;
     margin-top: 30px;
     font-size: 80px;
-    -webkit-text-stroke: black 1.5px;
     font-family: Arial, Helvetica, sans-serif;
    }
    
    h2 {
      font-family: Arial, Helvetica, sans-serif;
      margin: 0;
-     color: white;
+     color: red;
+     font-weight: 100;
      font-size: 30px;
+     -webkit-text-stroke: 0.5px black;
+   }
+
+   .player {
+    display: block;
+     width: 320px;
+    box-shadow: 5px 5px 7px black;
+    border-radius: 5px;
    }
