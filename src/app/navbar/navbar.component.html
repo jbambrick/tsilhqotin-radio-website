@@ -1,17 +1,28 @@
-<div class="toolbar" role="banner">
-        <img
-          width="280"
-          alt="Tsilhqot'in Radio Logo"
-          src="\assets\tsilhqotin_radio_logo.jpg"
-        />
-     
-        <li><a href="#" routerLink="/"><button class="w3-btn w3-black">Home</button></a></li>
-        <li><a href="#" routerLink="/about"><button class="w3-btn w3-black">About</button></a></li>
-        <li><a href="#" routerLink="/staff"><button class="w3-btn w3-black">Staff</button></a></li>
-        <li><a href="#" routerLink="/language"><button class="w3-btn w3-black">Language</button></a></li>
-        <li><a href="#" routerLink="/contact"><button class="w3-btn w3-black">Contact</button></a></li>
-        <li><a href="#" routerLink="/credits"><button class="w3-btn w3-black">Credits</button></a></li>
-</div>
-      <div class="container">
-        <router-outlet></router-outlet>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" role="banner" style="color:red;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="\assets\tsilhqotin_radio_logo.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink="/"><button class="w3-btn w3-black">Home</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/about"><button class="w3-btn w3-black">About</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/staff"><button class="w3-btn w3-black">Staff</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/contact"><button class="w3-btn w3-black">Contact</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/credits"><button class="w3-btn w3-black">Credits</button></a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  

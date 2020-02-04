@@ -1,11 +1,9 @@
-:host {
-    position: fixed;
-}
+
 
  p {
     box-sizing: border-box;
     padding: 20px;
-    margin-top: 70px;
+    margin-top: 170px;
     margin-left: -10px;
     margin-right: 300px;
     height: 400px;

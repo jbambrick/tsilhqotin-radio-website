@@ -1,31 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+img {
+  height: 90px;
+}
+
 body {
-    background-image: url(~\assets\tsilhqotin_horse.jpg);
+  background-image: url(~\assets\tsilhqotin_horse.jpg);
     background-position: fixed;
     background-repeat: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-
-img {
-    margin-top: auto;
-    margin-left: 25px;
-    margin-right: 10px;
-    border-radius: 0px 0px 0px;
-    border: none;
-    border-top: none;
-    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
-    box-sizing: border-box;
-    border-radius: 0px 0px 6px 6px;
 }
 
   /* Responsive Styles */
-  @media screen and (max-width: 767px) {
-
+@media (max-width: 992px) {
 
 }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 768px) {
 
+}
+
+@media (max-width: 576px) {
+
+}
+
+/*---Firefox bug fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*-- Fixed background image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-color: url(~\assets\tsilhqotin_horse.jpg);
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*-- Bootstrap padding fix --*/
+[class*="col-"] {
+  padding: 1rem;
 }
