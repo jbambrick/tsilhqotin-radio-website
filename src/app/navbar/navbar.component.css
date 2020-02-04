@@ -2,6 +2,7 @@
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.384), 0 6px 20px 0 rgba(0, 0, 0, 0.384);
     font-size: 25px;
     color: red;
+    padding: 0px
 }
 
 li {
@@ -22,6 +23,8 @@ button {
     display: block;
     border: none;
     font-weight: 500;
+    height: 100px;
+    width: 120px
 }
 
 button:hover {
@@ -29,4 +32,18 @@ button:hover {
     background-color: white;
     transform: scale(1.1) translate(105% 105%);
     box-shadow: 4px 4px 4px 4px rgba(.3, .3, .3, 0.3), 6px 6px 20px 6px rgba(.3, .3, 0.3, 0.3);
+}
+
+@media (max-width: 992px) {
+button {
+    height: unset;
+    width: unset;
+}
+}
+
+@media (max-width: 768px) {
+button {
+    height: unset;
+    width: unset;
+}
 }
