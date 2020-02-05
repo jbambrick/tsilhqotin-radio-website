@@ -5,6 +5,10 @@
     padding: 0px
 }
 
+.navbar-toggler {
+    margin-right: 10px;
+}
+
 li {
     text-decoration: none;
 }
@@ -24,7 +28,7 @@ button {
     border: none;
     font-weight: 500;
     height: 100px;
-    width: 120px
+    width: 120px;
 }
 
 button:hover {

@@ -1,18 +1,15 @@
-
-
- p {
+body {
+    text-align: center;
+}
+p {
     box-sizing: border-box;
-    padding: 20px;
-    margin-top: 170px;
-    margin-left: -10px;
-    margin-right: 300px;
-    height: 400px;
+    padding: 0px;
+    height: 650px;
     width: 50px;
-    background-color: white;
+    background-color: rgb(224, 215, 215);
     font-size: 18px;
     color: black;
     min-width: 900px;
     border-radius: 10px;
 }
-
 
