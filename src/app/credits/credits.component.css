@@ -1,19 +1,32 @@
-:host {
-    position: fixed;
+body {
+    text-align: center;
 }
-
- p {
+p {
     box-sizing: border-box;
-    padding: 20px;
-    margin-top: 70px;
-    margin-left: -10px;
-    margin-right: 300px;
-    height: 400px;
+    padding: 0px;
+    height: 650px;
     width: 50px;
+    background-color: rgb(224, 215, 215);
     font-size: 18px;
     color: black;
     min-width: 900px;
-    list-style-type: none;
     border-radius: 10px;
-    
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+}
+
+div.container {
+    background: transparent;
+}
+
+
+.jumbotron {
+    background: url(~/assets/tsilhqotin_hillside.jpg) no-repeat center center fixed, ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

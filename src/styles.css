@@ -3,29 +3,37 @@
 
 #picturecarousel {
   margin-top: 0px;
-  margin-bottom: -1000px;
   z-index: -1;
 }
 
-
+.picturecarousel {
+  background: url(~/assets/tsilhqotin_wagon.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
   /* Responsive Styles */
 @media (max-width: 992px) {
  body {
-   background-image: url(~\assets\tsilhqotin_hillside.jpg);
+   background-image: unset;
    background-repeat: no-repeat;
    background-size: 90em;
  }
 }
 
 @media (max-width: 768px) {
-  body {
-    background-image: url(~\assets\tsilhqotin_wagon_small.jpg);
+
+  #picturecarousel {
+    display: none;
   }
 }
 
 @media (max-width: 576px) {
-
+ #picturecarousel {
+   display: none;
+ }
 }
 
 /*---Firefox bug fix --*/

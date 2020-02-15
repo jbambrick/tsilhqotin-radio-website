@@ -13,3 +13,7 @@ p {
     border-radius: 10px;
 }
 
+h1 {
+    color: black;
+    font-weight: 400;
+}

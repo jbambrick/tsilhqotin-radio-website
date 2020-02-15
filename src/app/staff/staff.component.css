@@ -1,14 +1,41 @@
-body {
-    text-align: center;
+.container {
+    margin-top: -50px;
+    height: 700px;
 }
+
 p {
-    box-sizing: border-box;
-    padding: 0px;
-    height: 650px;
-    width: 50px;
-    background-color: rgb(224, 215, 215);
-    font-size: 18px;
-    color: black;
-    min-width: 900px;
-    border-radius: 10px;
+    margin-bottom: 50px;
 }
+
+h2 {
+    font-size: 65px;
+}
+
+.staffcard {
+    flex-direction: column;
+}
+
+.dj-img {
+    height: 265px;
+}
+
+
+@media (max-width: 992px) {
+    .staffcard {
+        flex-direction: row;
+      }
+   }
+   
+   @media (max-width: 768px) {
+   
+    .staffcard {
+        flex-direction: row;
+      }
+   }
+
+@media (max-width: 576px) {
+
+    .staffcard {
+      flex-direction: row;
+    }
+  }

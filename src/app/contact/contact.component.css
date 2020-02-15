@@ -12,3 +12,20 @@ p {
     min-width: 900px;
     border-radius: 10px;
 }
+
+h1 {
+    color: white;
+    font-weight: 400;
+}
+
+div.container {
+    background: transparent;
+}
+
+.jumbotron {
+    background: url(~/assets/tsilhqotin_hillside.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
