@@ -11,6 +11,7 @@ p {
     color: black;
     min-width: 900px;
     border-radius: 10px;
+    list-style-type: none;
 }
 
 h1 {
