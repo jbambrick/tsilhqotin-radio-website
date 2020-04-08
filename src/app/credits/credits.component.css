@@ -11,6 +11,7 @@ p {
     color: black;
     min-width: 900px;
     border-radius: 10px;
+    list-style-type: none;
 }
 
 h1 {
@@ -22,9 +23,8 @@ div.container {
     background: transparent;
 }
 
-
 .jumbotron {
-    background: url(~/assets/tsilhqotin_hillside.jpg) no-repeat center center fixed, ;
+    background: url(~/assets/tsilhqotin_hillside.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
