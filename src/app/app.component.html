@@ -4,6 +4,18 @@
 <router-outlet></router-outlet>
 <app-footer></app-footer>
 
-
+<div class="ob-stream-widget" data-category="701"></div>
+<script id="ob-stream-script">
+  obstream = {};
+  obstream.url = "https://datsan.openbroadcaster.pro";
+  obstream.itemSortBy = "title";
+  obstream.itemSortDir = "asc";
+  obstream.itemDisplay = "title";
+  var newScript = document.createElement("script");
+  newScript.defer = true;
+  newScript.src = `"https://datsan.openbroadcaster.pro/tools/stream/stream.js?v="${Date.now()}`;
+  var thisScript = document.getElementById('ob-stream-script');
+  thisScript.parentNode.insertBefore(newScript,thisScript);
+</script>
 
 
