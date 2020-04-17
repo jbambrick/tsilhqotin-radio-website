@@ -4,7 +4,7 @@
   }
   
   .picturecarousel {
-    background: url('~/assets/tsilhqotin_wagon.jpg') no-repeat center center fixed;
+    background: url('https://datsan.openbroadcaster.pro/download.php?media_id=3015') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,7 @@
   }
   
   #fixed {
-    background-color: url('~/assets/tsilhqotin_horse.jpg');
+    background-color: url('https://datsan.openbroadcaster.pro/download.php?media_id=3013');
     position: fixed;
     display: block;
     top: 0;
